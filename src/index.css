@@ -1,3 +1,60 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+
+
+.header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    
+
+}
+
+.header .navbar{
+    position: absolute;
+    background-color: white;
+    width: calc(100vw - 100px);
+    top: -1000%;
+    padding: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    transition: top 0.5s ease-in-out;
+}
+.header .navbar.open{
+    top: calc(90px - 10px);
+}
+.header .navbar ul li{
+    margin: 40px 0;
+}
+.navbtn{
+    display: none;
+}
+@media (min-width: 768px){
+    .header{
+       position: relative; 
+       
+        
+    }
+    .header .navbar{
+        position: relative;
+        background-color: white;
+        top: 0%;
+        left: 27%;
+        width: auto;
+    }
+    .header .navbar ul{
+        display: flex;
+    }
+    .header .navbar ul li {
+        margin: 0 10px;
+    }
+   .navbtn{
+        display: block;
+    }
+    .homebtn{
+        display: block;
+    }
+}
