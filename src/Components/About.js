@@ -1,23 +1,30 @@
 import React from 'react'
 import heroview from "./assets/hero-view.png"
+import thrift from "./assets/Thrift (1).svg"
+import frame9 from "./assets/Thrift.svg"
+import Footer from './Footer'
+
+
 
 
 const About = () => {
   return (
     <>
         <div className="md:flex  items-center mt-20 md:mt-10">
-        <div className="md:ml-10 text-center md:text-left md:mb-24">
-          <h1 className="text-2xl md:text-5xl  text-black font-Bitter  md:pt-0 md:w-1/2">
+        <div className="md:ml-10 text-center md:text-left md:mb-24 md:w-[744px] w-full">
+          <h1 className="text-2xl md:text-[56px]  text-black font-Bitter  md:pt-0 max-w-[595px] md:leading-[80px]">
             All you need to know About <span className="text-orange">Proligan.</span>
           </h1>
-          <p className="font-DM-Sans text-grey2 md:text-2xl md:w-2/3 md:mt-4">
+          <p className="font-DM-Sans text-grey2 md:text-2xl  md:mt-4">
             Proligan is an online financial platform where different thrift transactions are streamlined
             and users can join or create their own thrift individually or with a group
              of people from the comfort of their devices.
           </p>
         </div>
-         <div className="mt-10 md:mt-0 px-10 md:px-0 md:mr-20">
-          <img src={heroview} alt="phoneframe" className="" />
+         <div className="mt-10 md:mt-0 px-10 md:px-0  w-full max-w-[420px] relative">
+          <img src={heroview} alt="phoneframe" className="w-full" />
+          <img src={frame9} alt="thrift"className='absolute top-0 -left-40 ' />
+          <img src={thrift} alt="frame9" className='absolute bottom-0 -right-10'/>
          </div>
       </div>
       <div className='md:ml-10'>
@@ -34,6 +41,7 @@ const About = () => {
            as well as build and cultivate better financiall patterns and plans.
          </p>
       </div>
+      <Footer/>
     </>
   )
 }
