@@ -2,7 +2,7 @@ import React from "react";
 import heroview from "../Components/assets/hero-view.png";
 import thrift from "../Components/assets/Thrift (1).svg";
 import frame9 from "../Components/assets/Thrift.svg";
-import Footer from "./Footer";
+import Footer from "../Components/Footer";
 
 const About = () => {
   return (
