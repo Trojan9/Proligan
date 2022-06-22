@@ -46,7 +46,7 @@ const About = () => {
        <div className='grid md:grid-cols-2 lg:grid-cols-3  gap-10 bg-white md:px-5'>
           
        <div className='bg-[#F6F6F6] h-[568px] w-[376px] px-10 rounded-lg  pt-10 '>
-            <img src='/' className='h-[392px] w-[296px] mb-6'/>
+            <img src='/' alt="/" className='h-[392px] w-[296px] mb-6'/>
             <div className='flex flex-col items-center font-DM-Sans '>
             <h3 className="text-[32px]">Banjo Timilehin</h3>
             <p className='mt-2 text-grey2 text-[20px]'>software Engineer</p>
@@ -54,7 +54,7 @@ const About = () => {
           </div>
         
           <div className='bg-[#F6F6F6] h-[568px] w-[376px] px-10 pt-10 '>
-            <img src='/' className='h-[392px] w-[296px] mb-6'/>
+            <img src='/' alt='/' className='h-[392px] w-[296px] mb-6'/>
             <div className='flex flex-col items-center font-DM-Sans'>
             <h3 className="text-[32px]">Banjo Timilehin</h3>
             <p className='mt-2 text-grey2 text-[20px]'>software Engineer</p>
@@ -62,7 +62,7 @@ const About = () => {
           </div>  
 
           <div className='bg-[#F6F6F6] h-[568px] w-[376px] px-10 pt-10 '>
-            <img src='/' className='h-[392px] w-[296px] mb-6'/>
+            <img src='/' alt='/' className='h-[392px] w-[296px] mb-6'/>
             <div className='flex flex-col items-center font-DM-Sans'>
             <h3 className="text-[32px]">Banjo Timilehin</h3>
             <p className='mt-2 text-grey2 text-[20px]'>software Engineer</p>
