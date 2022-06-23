@@ -7,8 +7,8 @@ import Footer from "../Components/Footer";
 const About = () => {
   return (
     <>
-      <div className="md:flex flex-col items-center mt-[100px] md:mt-10 ">
-        <div className="md:ml-10 text-center md:text-left md:mb-24 md:w-[744px] w-full">
+      <div className="md:flex flex-col lg:flex-row items-center mt-[100px] md:mt-10 ">
+        <div className="md:ml-10 md:text-left md:mb-24 md:w-[744px] w-full text-center">
           <h1 className="text-2xl md:text-[56px]  text-black font-Bitter  md:pt-0 max-w-[595px] md:leading-[80px]">
             All you need to know About{" "}
             <span className="text-orange">Proligan.</span>
@@ -20,7 +20,7 @@ const About = () => {
             their devices.
           </p>
         </div>
-        <div className="mt-10 md:mt-0 px-10 md:px-0  w-full max-w-[420px] relative">
+        <div className="mt-10 lg:mt-0 px-10  lg:px-0  w-full max-w-[420px] relative">
           <img src={heroview} alt="phoneframe" className="w-full" />
           <img
             src={frame9}
@@ -74,28 +74,28 @@ const About = () => {
           {" "}
           Meet the Team
         </p>
-        <div className="grid md:grid-cols-2 lg:grid-cols-3  gap-10 bg-white md:px-5">
-          <div className="bg-[#F6F6F6] h-[568px] w-[376px] px-10 rounded-lg  pt-10 ">
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-10 bg-white md:mx-[112px] mx-5">
+          <div className="bg-[#F6F6F6]  h-full w-full px-10 pt-10  ">
             <img src="/" alt="/" className="h-[392px] w-[296px] mb-6" />
             <div className="flex flex-col items-center font-DM-Sans ">
               <h3 className="text-[32px]">Banjo Timilehin</h3>
-              <p className="mt-2 text-grey2 text-[20px]">software Engineer</p>
+              <p className="mt-2 text-grey2 text-[20px] mb-9">software Engineer</p>
             </div>
           </div>
 
-          <div className="bg-[#F6F6F6] h-[568px] w-[376px] px-10 pt-10 ">
+          <div className="bg-[#F6F6F6] h-full w-full px-10 pt-10 ">
             <img src="/" alt="/" className="h-[392px] w-[296px] mb-6" />
             <div className="flex flex-col items-center font-DM-Sans">
               <h3 className="text-[32px]">Banjo Timilehin</h3>
-              <p className="mt-2 text-grey2 text-[20px]">software Engineer</p>
+              <p className="mt-2 text-grey2 text-[20px] mb-9">software Engineer</p>
             </div>
           </div>
 
-          <div className="bg-[#F6F6F6] h-[568px] w-[376px] px-10 pt-10 ">
+          <div className="bg-[#F6F6F6] h-full w-full px-10 pt-10 ">
             <img src="/" alt="/" className="h-[392px] w-[296px] mb-6" />
             <div className="flex flex-col items-center font-DM-Sans">
               <h3 className="text-[32px]">Banjo Timilehin</h3>
-              <p className="mt-2 text-grey2 text-[20px]">software Engineer</p>
+              <p className="mt-2 text-grey2 text-[20px] mb-9">software Engineer</p>
             </div>
           </div>
         </div>

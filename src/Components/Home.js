@@ -25,7 +25,7 @@ const Home = () => {
           </button>
         </div>
         <div className="mt-10 md:mt-0 flex justify-center px-10">
-          <img src={iphoneframe} alt="phoneframe" className="" />
+          <img src={iphoneframe} alt="phoneframe" className="w-full h-full" />
         </div>
       </div>
       <div className="flex justify-center mt-8 md:mt-14 font-DM-Sans text-xs md:text-lg md:justify-start md:ml-10">
