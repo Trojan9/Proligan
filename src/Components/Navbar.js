@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import Logo from "./assets/logo.png";
-import ListIcon from "@mui/icons-material/List";
+import Logo from "../assets/logo.png";
+import DensityMediumIcon from '@mui/icons-material/DensityMedium';
 
 const Navbar = () => {
   const handleClick = () => {
@@ -16,10 +16,10 @@ const Navbar = () => {
 
   return (
     <>
-      <header className="header flex items-center lg:justify-between justify-around w-full  md:flex-row px-6 py-4 lg:px-10 lg:py-10">
+      <header className="header flex items-center justify-between  w-full  md:flex-row px-6 py-2 lg:px-10 lg:py-5">
         <div>
           <Link to="/">
-            <img src={Logo} alt="proligan" className="" />
+            <img src={Logo} alt="proligan" className="md:w-full w-1/2" />
           </Link>
         </div>
         <nav className="navbar">
@@ -44,7 +44,7 @@ const Navbar = () => {
         </nav>
         <div className="md:hidden ">
           <button onClick={handleClick}>
-            <ListIcon className="mt-5" />
+          <DensityMediumIcon className="mt-5" />
           </button>
         </div>
         <div className="navbtn">

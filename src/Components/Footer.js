@@ -1,8 +1,8 @@
 import React from "react";
-import logo from "./assets/logo.png";
-import twitter from "./assets/twitterlogo.png";
-import instagram from "./assets/instagram.png";
-import facebook from "./assets/facebooklogo.png";
+import logo from "../assets/logo.png";
+import twitter from "../assets/twitterlogo.png";
+import instagram from "../assets/instagram.png";
+import facebook from "../assets/facebooklogo.png";
 
 const Footer = () => {
   return (
@@ -56,6 +56,7 @@ const Footer = () => {
           </ul>
         </div>
       </div>
+        <p className="text-center md:mb-[39px] text-grey2 font-DM-Sans mb-4">Copyright © Proligan. All rights reserved.</p>
     </>
   );
 };

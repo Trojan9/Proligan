@@ -22,6 +22,7 @@
     left: 50%;
     transform: translateX(-50%);
     transition: top 0.5s ease-in-out;
+    z-index: 1000;
 }
 .header .navbar.open{
     top: calc(90px - 10px);
