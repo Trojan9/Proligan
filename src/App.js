@@ -1,12 +1,12 @@
 import React from "react";
 
 import {Routes,Route} from "react-router-dom"
-import Home from "./components/Home";
+import Home from "../src/components/Home";
 
-import Product from "./components/Product";
-import Contact from "./components/Contact";
-import About from "./components/About";
-import Navbar from "./components/Navbar";
+import Product from "../src/components/Product";
+import Contact from "../src/components/Contact";
+import About from "../src/components/About";
+import Navbar from "../src/components/Navbar";
 
 
 
