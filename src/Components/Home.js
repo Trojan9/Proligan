@@ -29,16 +29,16 @@ const Home = () => {
         </div>
       </div>
       <div className="flex justify-center  font-DM-Sans text-xs md:text-lg md:justify-start md:ml-10 mt-9 md:mt-0">
-        <button className="bg-white rounded border-grey3 border-2 text-black  flex py-3 px-2 md:py-[19px] md:mr-[26px] mr-4 md:px-[13px]">
-          <img src={apple} alt="applelogo" className=" md:mr-[22px] mr-4 " />{" "}
+        <button className="bg-white rounded border-grey3 border-2 text-black flex items-center py-2 px-2 md:py-[19px] md:mr-[26px] mr-4 md:px-[13px]">
+          <img src={apple} alt="applelogo" className=" md:mr-[22px] mr-2 " />{" "}
           Get on Iphone
         </button>
 
-        <button className="bg-white rounded border-grey3 border-2 text-black flex md:py-[19px] md:px-[13px] py-3 px-2">
+        <button className="bg-white rounded border-grey3 border-2 text-black flex items-center md:py-[19px] md:px-[13px] py-2 px-2  ">
           <img
             src={playstore}
             alt="playstorelogo"
-            className=" md:mr-[22px] mr-4"
+            className=" md:mr-[22px] mr-2"
           />{" "}
           Get on Android
         </button>

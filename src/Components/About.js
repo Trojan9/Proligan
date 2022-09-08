@@ -107,7 +107,7 @@ const About = () => {
               className="h-[392px] w-[296px] mb-6"
             />
             <div className="flex flex-col items-center font-DM-Sans">
-              <h3 className="text-[32px]">Temi Alamutu</h3>
+              <h3 className="text-[32px]">Alamutu Temi</h3>
               <p className="mt-2 text-grey2 text-[20px] mb-9">
                 Software Engineer
               </p>
